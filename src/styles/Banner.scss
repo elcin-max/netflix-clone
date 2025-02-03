@@ -1,0 +1,57 @@
+.banner-container {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+  
+    .banner-slide {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover !important;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      padding-left: 20px;
+      color: white;
+      transition: opacity 1s ease-in-out;
+  
+      .content {
+        background: rgba(0, 0, 0, 0.6);
+        padding: 20px;
+        border-radius: 8px;
+        text-align: start;
+        max-width: 500px;
+        left: 0;
+  
+        h1 {
+          font-size: 2rem;
+          margin-bottom: 10px;
+        }
+  
+        p {
+          font-size: 1.2rem;
+          margin-bottom: 15px;
+        }
+  
+        button {
+          background: #ffffff;
+          color: rgb(0, 0, 0);
+          padding: 10px 20px;
+          border: none;
+          font-family: sans-serif;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 1rem;
+          transition: background 0.3s;
+  
+          &:hover {
+            background: #0056b3;
+          }
+        }
+      }
+    }
+  }
+  

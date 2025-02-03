@@ -1,0 +1,20 @@
+
+$header-bg-color: transparent;
+
+header{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 35px;
+        background: $header-bg-color;
+
+        .logo{
+            display: inline-flex;
+            color: white;
+        }
+        nav{
+            display: inline-flex;
+                gap: 20px;
+                color: blueviolet;
+        }
+}
